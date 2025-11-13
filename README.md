@@ -11,7 +11,6 @@ Simple beginner-friendly project to measure distance using an Arduino Uno and th
 ## Parts required
 - Arduino Uno (or compatible)
 - HC-SR04 ultrasonic sensor
-- Breadboard
 - Jumper wires (Male-Female)
 - USB A-to-B cable
 - Ruler (for demo/calibration)
@@ -28,7 +27,7 @@ See `wiring.txt` for a simple ASCII blueprint.
 
 ## How to use
 1. Connect the HC-SR04 to the Arduino using the wiring above.
-2. Open the Arduino IDE, create a new sketch, paste the contents of `DistanceCalculator_Serial.ino`.
+2. Open the Arduino IDE, create a new sketch, paste the contents of `Distance_Calculator.ino`.
 3. Select the correct board and COM/port.
 4. Verify (compile) and Upload.
 5. Open the Serial Monitor (Tools → Serial Monitor) and set baud to **9600**.
