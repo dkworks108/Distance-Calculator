@@ -26,12 +26,14 @@ Simple beginner-friendly project to measure distance using an Arduino Uno and th
 See `wiring.txt` for a simple ASCII blueprint.
 
 ## How to use
-1. Connect the HC-SR04 to the Arduino using the wiring above.
-2. Open the Arduino IDE, create a new sketch, paste the contents of `Distance_Calculator.ino`.
-3. Select the correct board and COM/port.
-4. Verify (compile) and Upload.
-5. Open the Serial Monitor (Tools → Serial Monitor) and set baud to **9600**.
-6. Move an object in front of the sensor and watch the distance readings.
+
+1. Connect the HC-SR04 sensor to the Arduino as shown in the wiring diagram above.
+2. Open the **Arduino IDE**, create a new sketch, and paste the code from `Distance_Calculator.ino`.
+3. Select the correct **Board** and **COM/Port** from the Tools menu.
+4. Click **Verify** to compile the code, then **Upload** it to the Arduino.
+5. Open **Serial Monitor** (**Tools → Serial Monitor**) and set the baud rate to **9600**.
+6. Move an object in front of the sensor and watch the distance readings update in real time.
+
 
 ## Notes & Troubleshooting
 - Typical HC-SR04 working range: ~2 cm to ~400 cm.
